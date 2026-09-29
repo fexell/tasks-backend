@@ -42,8 +42,8 @@ appsettings.Local.json
 .env.*
 
 ## EF Core
-Migrations/*Designer.cs
-Migrations/*Snapshot.cs
+# Migrationernas Designer.cs- och Snapshot-filer MÅSTE finnas i Git -
+# utan dem hittar `dotnet ef database update` inga migrationer.
 
 ## Logs
 logs/
