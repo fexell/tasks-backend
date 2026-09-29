@@ -1,0 +1,77 @@
+## .NET build artifacts
+bin/
+obj/
+out/
+*.log
+
+## VS Code
+.vscode/
+.history/
+
+## Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## OS-specifika
+.DS_Store
+Thumbs.db
+
+## NuGet
+*.nupkg
+packages/
+*.snupkg
+
+## User Secrets (lokal utveckling)
+**/secrets.json
+
+## App settings (lägg aldrig dessa i Git)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Local.json
+
+## Environment files
+.env
+.env.*
+
+## EF Core
+Migrations/*Designer.cs
+Migrations/*Snapshot.cs
+
+## Logs
+logs/
+*.log
+*.tld
+
+## Publish output
+publish/
+dist/
+
+## Docker
+docker-compose.override.yml
+docker-compose.*.yml
+*.dockerignore
+
+## Cache
+*.cache
+.cache/
+tmp/
+temp/
+
+## Node (om du har frontend i samma repo)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## EntryDotnetBoilerplate specifikt
+# Token cache / temp files
+Tokens/
+RefreshTokens/
